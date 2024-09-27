@@ -1,5 +1,5 @@
 # Volume-Renderer-From-Scratch-With-GUI
-In this project, differentiable volume render has been implemented with a graphical user interface (GUI). The implemenation is in Python and using PyTorch.
+In this project, differentiable volume render has been implemented with a graphical user interface (GUI). The implementation is in Python and uses PyTorch.
 
 
 https://github.com/user-attachments/assets/67681aaa-cb39-4ee7-a1d0-d12edc62656b
@@ -11,6 +11,14 @@ After installing Anaconda, you can find all the requirements in the environment.
 ```
 conda env create -f environment.yml
 ```
+If you want to use the default volume, then
+```
+cd volumes/
+unzip coronacases_org_001.zip
+cd ../
+```
+**Note:** This volume is from publicly available [Kaggle COVID-19 CT scans](https://www.kaggle.com/datasets/andrewmvd/covid19-ct-scans?select=ct_scans).
+
 After activating the environment, you can run the default script using Python.
 ```
 cd script/
